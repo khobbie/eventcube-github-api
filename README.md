@@ -16,11 +16,11 @@ This application queries GitHub's API and returns repositories with the topic "p
 
 ### Installation
 
-1. Clone the repository using the command `git clone <repository-url>`
+1. Clone the repository using the command `git clone https://github.com/khobbie/eventcube-github-api.git`
 2. Navigate to the project root directory
 3. Copy the `.env.example` file and rename it to `.env` using the command `cp .env.example .env`
 4. Set the `GITHUB_TOKEN` and `GITHUB_BASE_URL` variable in the `.env` file to your personal access token with the `repo` scope.
-   `GITHUB_BASE_URL`= https://api.github.com/search/repositories.
+   `GITHUB_BASE_URL=https://api.github.com/search/repositories`.
    You can generate a new token by following the instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 5. Install the project dependencies using the command `composer install`
 
